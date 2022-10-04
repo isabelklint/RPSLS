@@ -7,10 +7,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <h1>Rock Paper Scissors Lizard Spock</h1>
-        <Header />
-        <Game />
-        <Footer />
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+        <section>
+          <Game />
+        </section>
+        <section>
+          <Footer />
+        </section>
       </div>
     </div>
   );

@@ -90,11 +90,6 @@ const Game = () => {
         <h2>{finalOutput} </h2>
         <h2>{you + " " + me}</h2>
       </div>
-      <div className="reset-btn">
-            <button>
-              RESET SCORE
-            </button>
-        </div>
       </div>
     </>
   );

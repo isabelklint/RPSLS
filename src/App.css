@@ -1,37 +1,30 @@
 .App {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  text-align: right;
+  font-family: monospace;
+  text-align: center;
   font-size: 24px;
   color: white;
-  margin: 20px;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+.App section {
+  background: #e3f6f5;
+  padding: 24px;
+  border-radius: 16px;
+  display: block;
+  margin: 20px 0;
+
+  box-shadow: 0 10px 20px rgba(0 0 0 /10%);
 }
 
 html,
 body {
   margin: 0;
   height: 100%;
-  background: radial-gradient(
-    circle at -8.9% 51.2%,
-    rgb(255, 124, 0) 0%,
-    rgb(255, 124, 0) 15.9%,
-    rgb(255, 163, 77) 15.9%,
-    rgb(255, 163, 77) 24.4%,
-    rgb(19, 30, 37) 24.5%,
-    rgb(19, 30, 37) 66%
-  );
+  background: #385170;
   background-size: cover;
 }
 
-.box {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: rgba(255, 124, 1, 0.3);
-}
-h1 {	letter-spacing: .08em; }
-
-a,
-p {
-  font-family: sans-serif;
-  font-size: 9px;
-  color: white;
-  letter-spacing: .08em; 
+h1 {
+  letter-spacing: 0.08em;
 }
