@@ -9,8 +9,12 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "reactjs-popup": "^2.0.5"
+=======
+    "react-scripts": "5.0.1"
+>>>>>>> 654de5181ae09db765d39b3705b75f996e36245b
   },
   "scripts": {
     "start": "react-scripts start",

@@ -20,6 +20,7 @@ const Game = () => {
   };
 
   useEffect(() => {
+     // eslint-disable-next-line
       switch (userSelection + computerSelection) {
         case "✂️📰":
         case "🧱✂️":
@@ -57,6 +58,7 @@ const Game = () => {
         default:
           break;
       }
+       // eslint-disable-next-line
   }, [computerSelection, userSelection]);
 
   return (

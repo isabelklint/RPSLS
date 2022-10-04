@@ -7,9 +7,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>
-          <h1>Rock Paper Scissors lizard Spock</h1>
-        </header>
+      <h1>Rock Paper Scissors Lizard Spock</h1>
+        <Header />
         <Game />
         <Footer />
       </div>
