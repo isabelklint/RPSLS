@@ -11,7 +11,7 @@ export default function Footer(props) {
   return (
     <div className="footer">
       <div className="reset-btn ">
-        <button className="d-block">RESET SCORE</button>
+        <button className="d-block" onClick={() => window.location.reload(false)}>RESET SCORE</button>
       </div>
       <input type="button" className="d-block" value="SEE RULES" onClick={togglePopup} />
       {ifOpen && (
