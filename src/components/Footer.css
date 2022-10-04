@@ -1,0 +1,11 @@
+.footer {
+    border: 2px solid hsl(217, 16%, 45%);
+    min-height: 100px;
+    border-radius: 8px;
+    font-family: BarlowSemiCondensedBold;
+    font-weight: 700;
+    color: #f2f4f7;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 10px;
+}
