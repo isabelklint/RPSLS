@@ -1,9 +1,18 @@
 import React from "react";
-import Popup from "reactjs-popup";
-import "reactjs-popup/dist/index.css";
 
-export default () => (
-  <Popup trigger={<button> Trigger</button>} position="right center">
-    <div>Popup content here !!</div>
-  </Popup>
-);
+import "./Popup.css";
+
+const Popup = (props) => {
+  return (
+    <div className="popup-box">
+      <div className="box">
+        <span className="close-icon" onClick={props.handleClose}>
+          x
+        </span>
+        {props.content}
+      </div>
+    </div>
+  );
+};
+
+export default Popup;
