@@ -1,5 +1,5 @@
 import React from "react";
-
+import Rulepic from "../images/Rules.png";
 import "./Popup.css";
 
 const Popup = (props) => {
@@ -7,7 +7,7 @@ const Popup = (props) => {
     <div className="popup-box">
       <div className="box">
         <span className="close-icon" onClick={props.handleClose}>
-          x
+          <img src={Rulepic} alt="Rules image" />;
         </span>
         {props.content}
       </div>
