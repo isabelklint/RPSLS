@@ -11,7 +11,7 @@ function Rules() {
 
     return (
       <div>
-      <button type="button" class="btn btn-primary" onClick={handleClick}>SEE RULES</button>
+      <button type="button" className="btn btn-primary" onClick={handleClick}>SEE RULES</button>
         {isShown && (
           <div><h3>Loren ipsum</h3></div>
         )}

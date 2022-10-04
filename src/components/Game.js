@@ -88,13 +88,10 @@ const Game = () => {
         </div>
         <div>
         <h2>{finalOutput} </h2>
-        <h2>{you + " " + me}</h2>
-      </div>
-      <div className="reset-btn">
-            <button >
-              RESET SCORE
-            </button>
+        <div className="row">
+          <div><h4>You: {you} vs Me: {me}</h4></div>
         </div>
+      </div>
       </div>
     </>
   );
