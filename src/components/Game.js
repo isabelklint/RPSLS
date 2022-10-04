@@ -69,7 +69,7 @@ const Game = () => {
             <div className="info">
             <div className="attack-btn">
           {selection.map((select, index) => (
-            <button key={index} onClick={() => clickHandler(select)}>
+          <button type="button" className="big" key={index} onClick={() => clickHandler(select)}>
               {select}
             </button>
           ))}
@@ -91,7 +91,7 @@ const Game = () => {
         <h2>{you + " " + me}</h2>
       </div>
       <div className="reset-btn">
-            <button>
+            <button >
               RESET SCORE
             </button>
         </div>
