@@ -20,8 +20,7 @@ const Game = () => {
   };
 
   useEffect(() => {
-    useEffect(() => {
-   }, []) 
+     // eslint-disable-next-line
       switch (userSelection + computerSelection) {
         case "✂️📰":
         case "🧱✂️":
@@ -59,7 +58,7 @@ const Game = () => {
         default:
           break;
       }
-            // eslint-disable-next-line react-hooks/exhaustive-deps
+       // eslint-disable-next-line
   }, [computerSelection, userSelection]);
 
   return (
